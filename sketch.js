@@ -35,8 +35,10 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    bird1 = new Bird(200, 100);
+
 }
-drawSprites();
+
 
 function draw(){
     background(backgroundImg);
@@ -60,5 +62,6 @@ function draw(){
     log5.display();
 
      bird.display();
+     bird1.display();
 
 }
